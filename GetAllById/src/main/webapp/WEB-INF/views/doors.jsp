@@ -9,7 +9,7 @@
 <title>Insert title here</title>
 </head>
 <body>
-<h1>All Watches Page</h1>
+<h1>Doors</h1>
 <% ArrayList<Doors> door =(ArrayList<Doors>) request.getAttribute("door");  %>
 <p> Number of doors: <%=door.size() %> </p>
 <table border="2">
